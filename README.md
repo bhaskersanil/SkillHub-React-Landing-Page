@@ -1,3 +1,9 @@
+SkillHub is a Clone of this website : https://tinyurl.com/skillhub-React
+
+If You are a Beginner in ReactJs this is the perfect repository for your contribution.
+
+If you need any help contact me on twitter : https://twitter.com/hii_mohit
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
