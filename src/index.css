@@ -29,6 +29,7 @@
 
 /*===== Margins =====*/
 :root{
+  --mb-0: -1rem;
   --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
@@ -126,38 +127,53 @@ main{
   margin: var(--mb-6);
 }
 
-/* #textContainer{} */
+/* .textContainer{} */
 
-#textContainer h2{
+.textContainer h2{
   color: var(--first-color);
   font-weight: bold;
 }
 
-#textContainer h1{
+.textContainer h1{
   font-size: var(--big-font-size);
   line-height: 1.2;
   font-weight: bolder;
   margin: 0;
 }
 
-#textContainer p{
+.textContainer p{
   font-size: var(--medium-font-size);
   width: 550px;
 }
 
-#textContainer input{
+.textContainer input{
   padding: var(--pd-1) var(--pd-7) var(--pd-1) var(--pd-1);
   font-size: var(--useful-font-size);
 }
 
-#textContainer button{
+.textContainer button{
   padding: var(--pd-2) var(--pd-6);
   border-radius: 0;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
-#imgContainer img{
+.imgContainer img{
+  width: 520px;
+  margin-top: var(--mb-0);
+}
+
+.mainImg img{
   width: 550px;
   margin-top: var(--mb-7);
+}
+
+/*==== About =====*/
+
+.aboutText{
+  margin-top: var(--mb-7);
+}
+
+.aboutText button{
+  border-radius: 5px;
 }
