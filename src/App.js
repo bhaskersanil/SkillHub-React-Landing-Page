@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home } from "./Pages/Home";
+import MainPage from "./Pages/MainPage";
 import { About } from "./Pages/About";
 import { Courses } from "./Pages/Courses";
 import { Resources } from "./Pages/Resources";
@@ -12,7 +12,7 @@ export default function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<MainPage />} />
           <Route path="/About" element={<About />} />
           <Route path="/Courses" element={<Courses />} />
           <Route path="/Resources" element={<Resources />} />
