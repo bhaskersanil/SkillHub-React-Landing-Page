@@ -11,7 +11,7 @@ function About(props) {
       </div>
       <div className="textContainer aboutText">
         <h1>
-          {props.bigText}
+          {props.bigText} 
         </h1>
         <p>
           {props.para1}

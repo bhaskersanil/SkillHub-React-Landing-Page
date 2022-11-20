@@ -1,6 +1,7 @@
 import React from "react";
 import MainPage from "./Pages/MainPage";
 import About from "./Pages/About";
+import Resource from "./Pages/Resource";
 
 function Home() {
   return (
@@ -21,6 +22,8 @@ function Home() {
         para2="Non-disclosure agreement seed round seed money accelerator influencer."
         btn="Explore More"
       />
+
+      <Resource/>
     </>
   );
 }
